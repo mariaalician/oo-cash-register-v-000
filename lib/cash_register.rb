@@ -8,7 +8,7 @@ class CashRegister
   end
   
   def cash_register_with_discount(discount)
-    discount = @total*0.8
+  
 
   end
   
@@ -17,6 +17,7 @@ class CashRegister
   end
 
   def apply_discount
-    
+      discount = @total*self.discount
   end
+  
 end
